@@ -1,0 +1,19 @@
+{
+  "name": "enpass-decryptor-js",
+  "version": "0.0.3",
+  "description": "Module to decrypt the database file created by enpass with given credentials.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Philipp Abraham",
+  "license": "MIT",
+  "repository": "https://github.com/master-lincoln/enpass-decryptor-js",
+  "dependencies": {
+    "cross-sqlcipher": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
